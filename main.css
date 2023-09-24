@@ -48,7 +48,7 @@ form input {
     padding: 5px;
     margin: 5px 15px;
     width: 200px;
-    background-color: #ffebe3;;
+    background-color: #ffebe3;
 }
 
 #inputCor {
@@ -61,7 +61,8 @@ form button {
     border-radius: 3px;
     width: 100px;
     margin:  3px 15px;
-    padding: 5px
+    padding: 5px;
+    background-color: #ffebe3;
 }
 
 table {
