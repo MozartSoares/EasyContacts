@@ -21,7 +21,6 @@ header {
     justify-content: space-between;
     padding: 18px;
     background-color: #8FE0D4;
-    border: 1px solid black;
 }
 
 .container {
@@ -38,7 +37,7 @@ body {
 }
 
 .formulario {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     width: 100%;
 }
 
@@ -49,6 +48,7 @@ form input {
     padding: 5px;
     margin: 5px 15px;
     width: 200px;
+    background-color: #ffebe3;;
 }
 
 #inputCor {
@@ -90,7 +90,6 @@ footer {
     justify-content: space-between;
     padding: 18px;
     background-color: #8FE0D4;
-    border: 1px solid black;
     margin-top: 310px;
 }
 
