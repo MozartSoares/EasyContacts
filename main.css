@@ -8,6 +8,90 @@ input::-webkit-inner-spin-button {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Handlee', cursive;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #8FE0D4;
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1288px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #B5D2FF;
+    border: 1px solid black;
+    align-items: center;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.formulario {
+    border: 1px solid black;
+    width: 100%;
+}
+
+form input {
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px 15px;
+    width: 200px;
+}
+
+#inputCor {
+    width: 50px;
+}
+
+form button {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 20px;
+    border-radius: 3px;
+    width: 100px;
+    margin:  3px 15px;
+    padding: 5px
+}
+
+table {
+    font-family: 'Nanum Brush Script', cursive;
+    width: 100%;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table th {
+    border-bottom: 2px solid #040101;
+    padding: 16px;
+}
+
+table td {
+    padding: 16px 0px; /* se só incluimos dois números o css entende como vertical e horizontal*/
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid #040101;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #8FE0D4;
+    border: 1px solid black;
+    margin-top: 310px;
 }
 
 .paleta-de-cores {
