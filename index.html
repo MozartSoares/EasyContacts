@@ -14,20 +14,19 @@
 <body>
     <div class="container">
         <header>
-            <img src="#" alt="logo agenda easy contacts">
+            <img src="images/logo.png" alt="logo agenda easy contacts">
             <h1>Easy contacts</h1>
-            <h3>Total de contatos: </h3>
+            <h3 id="total">Total de contatos: 0</h3>
         </header>
-        <form class="formulario">
+        <form id="formulario">
             <input type="text" placeholder="Digite o nome" id="inputNome" required>
             <input type="text" placeholder="Digite o sobrenome" id="inputSobrenome" required>
             <input type="number" inputmode="numeric" placeholder="Digite o número" id="inputNumero" required>
             <input type="text" placeholder="Digite o apelido (opcional)" id="inputApelido">
-            <input type="color" placeholder="Adicione uma cor ao contato (opcional)" id="inputCor" alt="Adicione cor de fundo ao contato">
             <button type="submit">Adicionar +</button>
             <button type="reset">Limpar</button>
         </form>
-        <table cellspacing="0">
+        <table cellspacing="0" id="tabela">
             <thead>
                 <tr>
                     <th>
@@ -45,28 +44,16 @@
                 </tr>
             </thead>
             <tbody>
-                <td>
-                    <h3>Mozart</h3>
-                </td>
-                <td>
-                    <h3>Soares</h3>
-                </td>
-                <td>
-                    <h3>81999300708</h3>
-                </td>
-                <td>
-                    <h3>Surildo</h3>
-                </td>
+                <tr>
             </tbody>
-            <tfoot>
-            </tfoot>
         </table>
         <footer>
             <h4>&copy; Easy contacts - todos os direitos reservados - 2023</h4>
-            <h4>Esta é uma versão de teste</h4>
+            <h4>Esta é uma versão de teste*</h4>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
+
 
 </html>
