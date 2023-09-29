@@ -63,6 +63,12 @@ form button {
     margin:  3px 15px;
     padding: 5px;
     background-color: #ffebe3;
+    font-weight: bold;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #ffebe3ba;;
 }
 
 table {

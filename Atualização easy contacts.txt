@@ -1,0 +1,5 @@
+Atualização easy contacts
+- adicionar cursor pointer
+-adicionar botão para resetar formulario a
+
+-font weight bold nos botoes
