@@ -1,4 +1,5 @@
 const formulario = document.getElementById('formulario')
+const footer =document.getElementById('footer')
 const totalArray = []
 const totalNumero = []
 
@@ -11,6 +12,16 @@ formulario.addEventListener('submit', function(e) {
     atualizaLinha()
     atualizaContatos()
 })
+
+function recarregarAPagina() {
+    window.location.reload()
+} 
+
+function pressionaReset() {
+    let confirmacao = confirm('Tem certeza que deseja limpar a agenda?')
+    if (confirmacao == true){
+        recarregarAPagina()    
+}}
 
 function  novaLinha() {
     const inputNome = document.getElementById('inputNome')

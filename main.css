@@ -122,6 +122,27 @@ footer {
     border-radius: 3px;
 }
 
+footer button {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #ffebe3;
+    padding: 8px;
+}
+
+footer button:hover {
+    cursor: pointer;
+    background-color: #ff6961;
+}
+
+footer span {
+    text-decoration: underline 2px;
+    font-size: 20px;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bold;
+}
+
 .paleta-de-cores {
     color: #8FE0D4;
     color: #B5D2FF;
